@@ -4,7 +4,7 @@ export default function TextBox(){
         <>
         <TxtAr>
             <p className="p1">About</p>
-            <p>I am a frontend developer with a particular interest in making things simple and automating daily tasks. I try to keep up with security and best practices, and am always looking for new things to learn.</p>
+            <p>I am a fullstack developer with a particular interest in making things simple and automating daily tasks. I try to keep up with security and best practices, and am always looking for new things to learn.</p>
             <p className="p1">Interests</p>
             <p>Food expert. Music scholar. Coffee fanatic. Mad about Anime</p>
         </TxtAr>
