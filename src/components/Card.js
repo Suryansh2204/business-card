@@ -6,11 +6,11 @@ export default function Card(){
     return(
         <Wrapper>
             
-            <Image src='./Suryansh.jpg'></Image>
+            <Image src={process.env.ImgURL}></Image>
 
             <BusinessCard>
-                <p className="name">Suryansh Srivastava</p>
-                <p className="title">Full-Stack Developer</p>
+                <p className="name">{process.env.NAME}</p>
+                <p className="title">{process.env.JOB_TITLE}</p>
                 <EmailButton/>
                 <TextBox/>
             </BusinessCard>

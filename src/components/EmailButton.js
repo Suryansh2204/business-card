@@ -1,7 +1,7 @@
 import styled from "styled-components";
 export default function EmailButton(){
     return(
-        <Button href="mailto:suripape1234@gmail.com" target="_blank" ><i class="fa-solid fa-envelope"></i> Email</Button>
+        <Button href={process.env.EMAIL} target="_blank" ><i class="fa-solid fa-envelope"></i> Email</Button>
     );
 }
 
